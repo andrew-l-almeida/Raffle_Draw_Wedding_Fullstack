@@ -7,10 +7,8 @@ var cors = require('cors')
 
 
 const sequelize = require('./util/database')
-const {Sequelize} = require('sequelize')
 const routes = require('./routes/routes')
 
-const Op = Sequelize.Op
 Buyer.hasMany(BuyerNumber)
 
 const app = express()
